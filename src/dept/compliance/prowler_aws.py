@@ -235,7 +235,7 @@ def save_diff(
     diff_data: str,
     s3_client: BaseClient,
 ) -> str:
-    ""
+    """
     Saves the filtered difference data to the
     S3 output bucket
     """
